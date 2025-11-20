@@ -1,0 +1,20 @@
+# --- OSごとの不要ファイル ---
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac (Mac参加者がいなくても入れておくのがマナー)
+.DS_Store
+
+# --- エディタの設定ファイル ---
+# VS Code (個人の設定フォルダを除外)
+.vscode/
+
+# Vim (LinuxユーザーやCUI操作時のバックアップファイル)
+*.swp
+*.swo
+
+# --- その他 ---
+# ログファイルなど
+*.log
